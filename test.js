@@ -14,5 +14,5 @@ test("Subpage navigation", async t => {
         .takeScreenshot()
         // Assert
         .expect(Selector("#welcome").innerText).eql("Welcome to the subpage")
-        .expect(Selector("body").getStyleProperty("background-color")).eql("rgb(173, 216, 230)")
+        .expect(Selector("body").getStyleProperty("background-color")).eql("rgb(144, 238, 144)")
 });
